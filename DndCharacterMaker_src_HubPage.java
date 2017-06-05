@@ -61,6 +61,26 @@ public class HubPage {
                 races.tiefling();
                 break;
         }
+        System.out.println("Enter your stats");
+        stats.setStr();
+        str+=stats.str;
+        stats.setDex();
+        dex+=stats.dex;
+        stats.setCon();
+        con+=stats.con;
+        stats.setInl();
+        inl+=stats.inl;
+        stats.setWis();
+        wis+=stats.wis;
+        stats.setCha();
+        cha+=stats.cha;
+        System.out.println("Choose your class");
+        for(int i =0;i<12;i++)
+        {
+            System.out.println(classes.classes[i]);
+           
+        }
+        
     }
 
 }
